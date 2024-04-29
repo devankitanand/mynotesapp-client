@@ -1,7 +1,7 @@
 import axios from "axios";
 import { NOTE_CREATE_FAIL, NOTE_CREATE_REQUEST, NOTE_CREATE_SUCCESS, NOTE_DELETE_FAIL, NOTE_DELETE_REQUEST, NOTE_DELETE_SUCCESS, NOTE_LIST_FAIL, NOTE_LIST_REQUEST, NOTE_LIST_SUCCESS } from "../constants/notesconstants";
 
-const baseURL = process.env.NODE_ENV
+const baseURL = process.env.NODE
 
 const api = axios.create({
     baseURL: baseURL
